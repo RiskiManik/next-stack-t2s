@@ -21,7 +21,7 @@ const HelloWorldClient = () => {
         </CardDescription>
       </CardHeader>
       <CardContent>
-        <p>{isLoading ? <>loading...</> : data?.message}</p>
+        <p>{isLoading ? " loading..." : data?.message}</p>
       </CardContent>
       <CardFooter>
         <p>Card Content</p>
